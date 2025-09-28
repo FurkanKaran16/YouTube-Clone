@@ -2,6 +2,9 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .author-p{
+    display: inline-block !important;
+  }
 
   body{
     font-family: roboto, arial;

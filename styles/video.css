@@ -34,6 +34,10 @@
         color: rgb(96, 96, 96);
       }
       
+      .video-author:hover{
+        color: rgb(32, 32, 32);;
+      }
+
       .video-author{
         margin-bottom: 4px;
       }
@@ -77,4 +81,24 @@
         font-weight: 500;
         padding: 4px;     
         border-radius: 2px;
+      }
+
+      .video-preview{
+        text-decoration: none;
+      }
+
+      a {
+        color: #030303; 
+        text-decoration: none;
+      }
+      
+      a.block-link{
+        text-decoration: none;
+        display: block;
+      }
+
+      .video-preview a:visited,
+      .video-preview a:link{
+        text-decoration: none;
+        color: inherit;
       }
